@@ -1,0 +1,6 @@
+# Visual Studio files and folder
+.vs/
+
+# Project files
+Tic-Tac-Toe/Intermediates/
+Tic-Tac-Toe/Outputs/
