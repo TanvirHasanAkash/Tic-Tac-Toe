@@ -82,7 +82,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\GameLogic\Winner.hpp" />
     <ClCompile Include="Source\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GameLogic\Board.hpp" />
+    <ClInclude Include="Source\GameLogic\Cell.hpp" />
+    <ClInclude Include="Source\GameLogic\Input.hpp" />
+    <ClInclude Include="Source\GameLogic\State.hpp" />
+    <ClInclude Include="Source\GameLogic\Turn.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
